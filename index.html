@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://use.fontawesome.com/393b30576d.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Clock component</h1>
+        <p id="click">Take it, it's yours!</p>
+        <a href="http://www.google.com/" target="_blank"><i class="fa fa-github-square git-icon" aria-hidden="true" style="font-size: 4.5em;"></i></a>
+    </header>
+
+
+    <main class="main">
+        <div class="digital-clock">
+            <h1></h1>
+        </div>
+
+        <div class="classic-clock">
+            <div class="clock-face">
+                <div class="hand hour-hand"></div>
+                <div class="hand min-hand"></div>
+                <div class="hand seconds-hand"></div>
+            </div>
+        </div>
+
+        <div class="vertical-division"></div>
+        <button class="change-button">change to digital time</button>
+    </main>
+
+    <script src="app/app.js"></script>
+</body>
+</html>
